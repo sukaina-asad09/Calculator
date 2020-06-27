@@ -1,0 +1,85 @@
+@font-face{
+    font-family: my_font;
+    src: url(Merienda/Merienda-Bold.ttf)
+}
+body{
+    background-image:url("bg.jpg");
+    font-family: my_font;
+}
+.container{
+    width: 1000px;
+    height: 560px;
+    margin: 20px auto;
+}
+.calculator{
+    width: 320px;
+    height: 520px;
+    background-color:#D6EAF8;
+    margin: 0 auto;
+    top: 20px;
+    bottom: 20px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 
+    rgba(0, 0, 0, 0.19);
+}
+.area{
+    width: 315px;
+    height: 50px;
+    border-radius: 5px;
+}
+.keyboard{
+    height: 400px;
+}
+.operator, .number, .empty{
+	width: 50px;
+	height: 50px;
+	margin: 15px;
+	float: left;
+	border-radius: 50%;
+	border-width: 0;
+	font-weight: bold;
+	font-size: 15px;
+}
+.number, .empty{
+	background-color: #A6ACAF;
+}
+.number, .operator{
+	cursor: pointer;
+}
+.operator:active, .number:active{
+	font-size: 13px;
+}
+.operator:focus, .number:focus, .empty:focus{
+	outline: 0;
+}
+.colorful-1{
+    font-size: 20px;
+	background-color: #3498DB;
+
+}
+.colorful-2{
+    font-size: 20px;
+	background-color: #AED6F1;  
+}
+.colorful-3{
+    font-size: 20px;
+	background-color: #3498DB;
+}
+.colorful-4{
+    font-size: 20px;
+	background-color: #AED6F1;
+}
+.colorful-5{
+    font-size: 20px;
+	background-color: #3498DB;
+}
+#clear{
+    background-color: #A6ACAF;
+}
+#backspace{
+    background-color: #A6ACAF;
+}
+#percent{
+    background-color: #A6ACAF;
+}
